@@ -33,6 +33,6 @@ print(d)
 
 # 練習使用python api
 formatter = string.Formatter() # 產生一個物件
-print(formatter.format("Those are ascii letters:{0}", string.ascii_letters))
+print(formatter.format("These are ascii letters:{0}", string.ascii_letters))
 print(math.ceil(123.6))
 
