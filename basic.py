@@ -1,6 +1,4 @@
 import random
-import string
-import math
 
 a = int(random.random() * 20);
 b = int(random.random() * 20);
@@ -30,9 +28,3 @@ my_function()
 
 d = [i for i in range(10) if i % 2 == 0]
 print(d)
-
-# 練習使用python api
-formatter = string.Formatter() # 產生一個物件
-print(formatter.format("These are ascii letters:{0}", string.ascii_letters))
-print(math.ceil(123.6))
-
