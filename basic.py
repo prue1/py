@@ -8,7 +8,7 @@ a = 3000;
 b = 3000;
 print('a:', a);
 print('b:', b);
-print(a is b); # 比較記憶體 
+print(a is b); # 比較記憶體
 print(a == b); # is、 == 結果相同，是因為脚本的緣故。
 print(id(a));
 print(type(a));
