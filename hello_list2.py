@@ -23,14 +23,14 @@ print(d5a)
 print(d5b)
 
 print("d6:---------")
-d6 = [];
+d6 = []
 d6.append(100)
 d6.append(200)
 print(d6)
 
 for i in range(2):
-  for j in range(5):
-    print(f'{i}, {j}')
+    for j in range(5):
+        print(f'{i}, {j}')
 
 print("d7:---------")
 d7 = [[1, 2, 3], [4, 5, 6], [7, 8, 9, 0]]

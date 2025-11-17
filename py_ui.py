@@ -12,7 +12,7 @@ from PyQt6.QtWidgets import QApplication, QWidget
 from PyQt6.QtWidgets import QApplication, QWidget
 import sys
 
-app = QApplication(sys.argv) # Create the application instance
+app = QApplication(sys.argv)  # Create the application instance
 window = QWidget()          # Create a basic window widget
 window.show()               # Make the window visible
 sys.exit(app.exec())        # Start the event loop and exit when done
